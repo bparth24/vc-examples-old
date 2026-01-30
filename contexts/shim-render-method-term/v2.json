@@ -62,7 +62,10 @@
             }
           }
         },
-        "template": "https://w3id.org/vc/render-method#template"
+        "template": {
+          "@id": "https://w3id.org/vc/render-method#template",
+          "@type": "@id"
+        }
       }
     },
     "NfcRenderingTemplate2024": {
